@@ -1,0 +1,301 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+
+
+/* fonts 
+font-family: 'Special Elite', cursive;
+font-family: 'Martel', serif; */
+
+
+body {background-color: #754c24; }
+
+p {color: white;
+	font-family: 'Special Elite', cursive;
+    margin-top: 0;
+    margin-bottom: 0;}
+
+.h1, h1 {
+    font-size: 2.5rem;
+    font-family: 'Special Elite', cursive;}
+
+h2 {font-family: 'Special Elite', cursive;}
+
+h3 {font-family: 'Special Elite', cursive;}
+
+h4 {font-family: 'Martel', serif; }
+
+h5 {font-family: 'Martel', serif;}
+
+a { color: white;
+    text-decoration: none;
+    background-color: transparent;
+	font-family: 'Martel', serif;}
+a:hover { color: #603913;
+    	text-decoration: underline;}
+
+.container {background-color: #cfe8ff;}
+
+#top {background-color: #754c24;}
+
+#header {background-color: #c69c6d;}
+#header2 {background-color: #c69c6d;}
+#header h1 {color: white;
+			margin-top: 30px;
+			margin-bottom: 0;}
+#header2 nav {margin-top: 0px;
+			margin-bottom:10px;}
+
+
+.card {border: 0px solid rgba(0, 0, 0, 0);}
+
+
+#background {background-image: url('../images/tyedenimwebsite.jpg'); }
+#sustainability h1, h3 {color: white;}
+#sustainability a {color: white;}
+#sustainability a:hover {color: #c69c6d;}
+#sustainability {background-color: #44627e;
+                margin: 0 auto; /* Added */
+                float: none; /* Added */
+                margin-bottom: 50px;
+                margin-top:  50px;/* Added */}
+
+
+
+
+#vintage1 {padding-top: 30px;
+            padding-bottom: 20px;
+            padding-left: 5px;}
+#vintage2 {padding-left:20px;}
+#vintage2 h1 {color: #44627e;
+                font-size: 80px;}
+#vintage2:hover h1 {color: #754c24;}
+
+#diyindex {background-image: url(../images/watercolor.png);
+            padding-top: 30px;
+            padding-bottom: 20px;
+            padding-left: 20px;}
+#diyoptions h1 {font-size: 100px;
+                color: #c69c6d;}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #c69c6d;
+    border-color: #c69c6d;
+}
+
+.btn-seconday {
+    color: #fff;
+    background-color: #44627e;
+    border-color: #44627e;}
+
+
+ #footer {background-color: #c69c6d;
+            padding-top: 20px;
+            padding-bottom: 10px;}
+#footer h4 {color: #754c24;
+            font-family: 'Special Elite', cursive;}
+
+#footer h5 {color: #754c24;} 
+
+
+
+/*sustainability page */
+
+
+#sustain-body {background-image: url('../images/water1.png'); 
+                padding-top: 30px;}
+#sustain-body h2 {color: #c69c6d;}
+#what-card {background-color: #cfe8ff;
+            margin: 0 auto; /* Added */
+            float: none; /* Added */
+            margin-bottom: 20px;
+            margin-top:  5px;/* Added */}
+#what-card p {color: #44627e;}
+#card-background {background-image: url('../images/water1.png');}
+
+#sustainbody {background-image: url('../images/water1.png');}
+#sustainbody h2 {color: #c69c6d;}
+#why-card { background-color: #cfe8ff;
+            margin: 0 auto; /* Added */
+            float: none; /* Added */
+            margin-bottom: 20px;
+            margin-top:  5px;/* Added */}
+#why-card p {color: #44627e;}
+#card-back {background-image: url('../images/water1.png');
+            padding-bottom: 30px;}
+#sustainibility-heading p {font-family: 'Martel', serif;
+                            color: #44627e;}
+#sustainibility-heading {background-color: #c69c6d;}
+
+
+
+#terms {background-color: #44627e;
+        padding-top: 20px;}
+#definitions {background-color: #44627e;
+        padding-bottom: 20px;
+        padding-left: 30px;}
+
+#educate {padding-top: 30px;}
+#educate h2 {color: white;
+                font-size: 70px;}
+#educate {background-image: url('../images/denim2website.jpg');}
+
+#depletion {padding-left: 70px;}
+#matters {padding-left: 40px;}
+
+#whatis {padding-left: 70px;}
+#destroying {padding-left: 40px;}
+
+#educate-articles {background-image: url('../images/denim2website.jpg');
+                    padding-top: 20px;
+                    padding-bottom: 20px;}
+#articles2 {background-image: url('../images/denim2website.jpg');
+                    padding-top: 20px;
+                    padding-bottom: 30px;}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #754c24;
+    border-color: #754c24;}
+
+
+
+/* thrift page */
+
+#thrifthead {padding-top: 40px;
+                background-color: #cfe8ff;}
+#thrifthead h1 {color: #44627e;}
+
+#slogan {background-color: #cfe8ff;}
+#slogan h5 {color: #44627e;
+            font-family: 'Special Elite', cursive;}
+
+#row1 p {color: #44627e;
+        padding-top: 10px;}
+#row1 {padding-top: 10px;
+        padding-bottom: 30px;
+        padding-left: 5px;
+        background-color: #cfe8ff;}
+
+#row2 p {color: #44627e;
+        padding-top: 10px;}
+#row2 {padding-top: 10px;
+        padding-bottom: 30px;
+        padding-left: 5px;
+        background-color: #cfe8ff;}
+
+#row3 p {color: #44627e;
+        padding-top: 10px;}
+#row3 {padding-top: 10px;
+        padding-bottom: 30px;
+        padding-left: 5px;
+        background-color: #cfe8ff;}
+
+#row4 p {color: #44627e;
+        padding-top: 10px;}
+#row4 {padding-top: 10px;
+        padding-bottom: 30px;
+        padding-left: 5px;
+        background-color: #cfe8ff;}
+
+#row5 p {color: #44627e;
+        padding-top: 10px;}
+#row5 {padding-top: 10px;
+        padding-bottom: 50px;
+        padding-left: 5px;
+        background-color: #cfe8ff;}
+
+
+/* do it yourself page */
+#doityourselfhead { background-color: #cfe8ff;
+                    padding-top: 30px;
+                    padding-bottom: 10px;}
+#doityourselfhead h1 {color: #44627e;}
+#diytext p {color: #44627e;}
+#diyexplain {background-color: #c69c6d;
+                margin: 0 auto; /* Added */
+                float: none; /* Added */
+                margin-bottom: 50px;
+                margin-top:  0px;/* Added */}
+#diytext {background-color: #cfe8ff;}
+
+#inspo {padding-top: 20px;
+        padding-bottom: 10px;
+        background-color: #ffd6e7;}
+#inspo h2 {color: #c69c6d;}
+
+#inspo-images {padding-bottom: 30px;
+                padding-right: 15px;
+                background-color: #ffd6e7;}
+
+
+#youtube {padding-top: 30px;
+            background-color: #c69c6d;}
+#youtube h2 {color: white;}
+
+#instructions {background-color: #c69c6d;
+                padding-top: 15px;
+                padding-bottom: 15px;}
+
+
+#tiktok {background-color: #ffd6e7;
+            padding-top: 30px;}
+#tiktok h2 {color: #c69c6d;}
+
+#tiktoklinks1 {padding-top: 20px;
+                padding-bottom: 10px;
+                background-color: #ffd6e7;}
+#tiktoklinks2 {padding-top: 20px;
+                padding-bottom: 10px;
+                background-color: #ffd6e7;}
+#tiktoklinks3 {padding-top: 20px;
+                padding-bottom: 40px;
+                background-color: #ffd6e7;}
+
+#tiktoklinks1 h3 {color: #c69c6d;
+                    padding-top: 20px;}
+#tiktoklinks2 h3 {color: #c69c6d;
+                    padding-top: 20px;}
+#tiktoklinks3 h3 {color: #c69c6d;
+                    padding-top: 20px;}
+
+/* about page */
+
+#aboutme {background-color: #44627e;
+            padding-top: 30px;}
+#aboutme h1 {color: #cfe8ff;}
+
+#aboutmeslogan {background-color: #44627e;}
+#aboutmeslogan h5 {color: #cfe8ff;
+                    font-family: 'Special Elite', cursive;}
+
+#aboutphoto {padding-left: 380px;
+            padding-bottom: 30px;
+            background-color: #44627e;}
+
+#about1 {background-color: #ffd6e7;
+                margin: 0 auto; /* Added */
+                float: none; /* Added */
+                margin-bottom: 50px;
+                margin-top:  50px;/* Added */}
+#about1 p {color: #44627e;}
+#aboutcard1 {background-image: url('../images/pinkback.png');}
+
+#about2 {background-color: #44627e;
+                margin: 0 auto; /* Added */
+                float: none; /* Added */
+                margin-bottom: 50px;
+                margin-top:  50px;/* Added */}
+#about2 p {color: white;}
+
+#aboutcard2 {background-color: #44627e;}
+
+
+
+
+
+
+
+
+
